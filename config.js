@@ -4,8 +4,8 @@ global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Want some h
 global.thumbt = global.img
 global.fsx = 999999999999
 global.kontak = [
-['6282287750102', 'Alpin', true],
-['6285272101657', 'Anya-MD ⁴⁰⁴-ﾉ [BOT MD]', true]
+['62895336282144', '𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷', true],
+['6282140373458', 'Raxcel-MD ⁴⁰⁴-ﾉ [BOT MD]', true]
 ]
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -24,9 +24,9 @@ global.APIs = { // API Prefix
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://api.neoxr.eu.org': 'yntkts',
-  'https://api.xteam.xyz': 'Apikeys',
-  'https://melcanz.com': 'Apikeys',
-  'https://api.lolhuman.xyz': 'Apikeys',
+  'https://api.xteam.xyz': 'NezukoTachibana281207',
+  'https://melcanz.com': 'wEDTUsWj',
+  'https://api.lolhuman.xyz': '9b817532fadff8fc7cb86862',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.me': 'apivinz',
   'https://pencarikode.xyz': 'pais',
@@ -35,24 +35,28 @@ global.APIKeys = { // APIKey Here
 }
 
 global.WM = '𝑴𝒚𝑩𝒐𝒕-𝑴𝒖𝒍𝒕𝒊 𝑫𝒆𝒗𝒊𝒄𝒆 𝑩𝒚 𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷'
-global.linkgc = 'https://chat.whatsapp.com/CnQV9lNcHuIENb8SQ9CaYP'
+global.linkgc = 'https://chat.whatsapp.com/In80GzGHd429Bw0YLK2F1K'
 global.linkig = 'https://www.instagram.com/en4y.pin'
 global.deslink = ''
 global.titlink = 'Folllow me on Instagram'
 global.bodlink = '@en4y.pin'
 
-global.wait = '_*Bentar ya Kak...*_'
+global.wait = '_*𝐬𝐞𝐝𝐚𝐧𝐠 𝐝𝐢 𝐩𝐫𝐨𝐬𝐞𝐬 ...*_'
 global.eror = '_*мααƒ ѕєяνєя тι∂αк ѕтαвιℓ..*_'
 
-//========Url Template Buttons==========//
+//========Url Template Buttons=========//
+//global.dtux = dtu
+//global.urlx = urlnya
 global.dtu = '𝑭𝒐𝒍𝒍𝒐𝒘'
-global.urlnya = "https://www.instagram.com/the.sad.boy01"
+global.urlnya = "https://www.instagram.com/en4y.pin"
 
-//============= callButtons ============//
+//============= callButtons =============//
+//global.dtcx = dtc
+//global.nmbrx = phn
 global.dtc = '𝒄𝒂𝒍𝒍 𝒐𝒘𝒏𝒆𝒓'
 global.phn = '+62 895-3362-82144'
 
-//========== Tampilan Bot =============//
+//========== Tampilan Bot ===========//
 global.sa = '╭─'
 global.gx = '│✇'
 global.gy = '│•'
@@ -62,6 +66,16 @@ global.kki = '「'
 global.kka = '」'
 global.zt = '*'
 global.zc = ''
+global.lim ='Ⓛ'
+global.prem = 'Ⓟ'
+
+
+//============= Games ================//
+global.benar = '_*Benar✅*_'
+global.salah = '_*Salah❌*_'
+global.dikit = "dikit lagi, semangat ya :')"
+
+global.multiplier = 100 // The higher, The harder levelup
 
 global.thumbnailUrl = [
   'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', 'https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
@@ -71,12 +85,6 @@ global.thumbnailUrl = [
   'https://telegra.ph/file/de92ed4a729887ffc974c.jpg', 'https://telegra.ph/file/00ce42a193b1dbbf907d4.jpg'
 ]
 
-//============= Games ================//
-global.benar = '_*Benar✅*_'
-global.salah = '_*Salah❌*_'
-global.dikit = "dikit lagi, semangat ya :')"
-
-global.multiplier = 100 // The higher, The harder levelup
 
 //=========== Requirements ==========//
 
@@ -99,7 +107,7 @@ global.rpg = {
       diamond: '💎',
       common: '📦',
       uncommon: '🎁',
-      mythic: '🗳️',
+      mythi: '🗳️',
       legendary: '🗃️',
       pet: '🎁',
       sampah: '🗑',
