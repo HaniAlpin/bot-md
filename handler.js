@@ -775,13 +775,13 @@ Untuk mematikan fitur ini, ketik
   contextInfo: { 
     externalAdReply :{
     showAdAttribution: true,
-    mediaUrl: 'https://wa.me/62895336282144',
+    mediaUrl: 'https://wa.me/6282287750102',
     mediaType: 2,
     description: desl, 
     title: run,
     body: wmo,
     thumbnail: await(await fetch(img)).buffer(),
-    sourceUrl: 'https://wa.me/62895336282144'
+    sourceUrl: 'https://wa.me/6282287750102'
      }}
   })
 }
