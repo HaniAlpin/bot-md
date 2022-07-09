@@ -252,35 +252,19 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     ]
     const listMessage = {
       text: `
-❏ *U S E R   I N F O*
-• Nama    : *${name}*
-• Limit   : *${limit}*
-• Status  : *${global.owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) ? 'Owner 🗿' : 'Users ⚔️'}*
-• Premium : *${premium ? `${conn.msToDate(premiumTime - new Date() * 1)}` : 'Gratisan'}*
+❏═┅═━⟨〔 *ALPIN* 〕
+┆✾ Nama ${name}
+┆✾ ${Object.keys(global.db.data.users).length} Pengguna
+┆✾ Status ${global.owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) ? 'Owner 🗿' : 'Users ⚔️'}
+┆✾ Ultah ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
+┆✾ Tanggal ${week} ${weton} ${date}
+┆✾ Tersisa ${limit} Limit
+┗–––––––––––––––––––✦
 
-❏ *S T A T U S   I N F O*
-• Total User : *${rtotalreg} dari ${totalreg}*
-• Tersisa    : *${limit} Limit*
-• Role       : *${role}*
-• Level      : *${level}*
-
-❏ 𝙏𝙄𝙈𝙀
-» Wib : *${time}*
-» Tanggal : *${week} ${weton} ${date}*
-
-❏ 𝙏𝘼𝙃𝙐𝙉 𝘽𝘼𝙍𝙐
-_*${jhari} Hari ${jjam} Jam ${mmmenit} Menit ${ddetik} Detik*_
-
-❏ 𝙍𝘼𝙈𝘼𝘿𝘼𝙉
-_*${harii} Hari ${jamm} Jam ${menitt} Menit ${detikk} Detik*_
-
-❏ 𝙐𝙇𝘼𝙉𝙂 𝙏𝘼𝙃𝙐𝙉 𝙊𝙒𝙉𝙀𝙍
-_*${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*_
-
-${pe}Note: Jika ada Fitur yg Error Lapor ke owner${pe}`,
+${pe}By Alpin${pe}`,
       footer: wm,
       title: judul,
-      buttonText: "Klik Disini",
+      buttonText: "CLICK HERE",
       sections
     }
     return conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(judul), contextInfo: { forwardingScore: 99999, isForwarded: true }})
