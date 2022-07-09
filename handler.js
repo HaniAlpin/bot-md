@@ -40,21 +40,21 @@ module.exports = {
         global.author = global.data.owner
         //global.author = 'The.sad.boy01'
         global.wm2 = global.data.namabot + ' ' + global.data.owner
-        global.wm = namabot + ' ву 𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷'
+        global.wm = namabot + ' X Hani'
         global.colong1 = 'Ciss 📸'
-        global.colong2 = 'ʙy 𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷'
+        global.colong2 = 'En4y.Pin'
         global.kontak2 = [
-        ['62895336282144', '𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷', 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'drakblue3@gmail.com', true],
-        ['6282140373458', 'Raxcel-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6289676100764', 'Lornull-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true]
+        ['6282287750102', 'Alpin', 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'alpingans@gmail.com', true],
+        ['6285272101657', 'Alpin-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
+        ['6285272101657', 'Alpin-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
+        ['6285272101657', 'Alpin-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
+        ['6285272101657', 'Alpin-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
+        ['6285272101657', 'Alpin-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
+        ['6285272101657', 'Alpin-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
+        ['6285272101657', 'Alpin-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
+        ['6285272101657', 'Alpin-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
+        ['6285272101657', 'Alpin-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
+        ['6285272101657', 'Alpin-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true]
         ]
         global.go = 'https://pic.re/image'
         global.gb = await (await fetch(go)).buffer()
